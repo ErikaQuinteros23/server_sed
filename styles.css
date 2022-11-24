@@ -1,0 +1,704 @@
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+/*Estilos del body*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #181F32;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Estilos de barra de navegacion*/
+header nav{
+    padding-top: 0.9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6EAF0;
+}
+
+.logo{
+    width: 5.625rem;
+}
+
+.fake-company{
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 0.625rem;
+    margin-right: 2.5rem;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #D23F2F;
+    width: 15.125rem;
+    color: #FFF;
+    padding: 0.9375rem 1.875rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    border-style: none;
+    font-weight: 600;
+}
+
+button:hover{
+    border-radius: 0.625rem 0 0.625rem 0;
+    transform: scale(1.03);
+}
+
+.nav-item{
+    margin-right: 1.875rem;
+    padding: 0.9375rem 1.25rem;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    background-color: #EAD1D3;
+    border-radius: 0.625rem;
+}
+
+/*Estilos de la primera seccion de la pagina web*/
+.first-section{
+    background-color: #E6EAF0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 54.375rem;
+}
+
+.first-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 9.375rem;
+    padding-right: 0.9375rem;
+}
+
+.second-div{
+    display: flex;
+    padding-right: 9.375rem;
+    padding-left: 9.375rem; 
+}
+
+.first-title{
+    margin: 0 0 0 0;
+}
+
+p{
+    text-align: justify;
+}
+
+/*Estilos de la segunda seccion de la pagina web*/
+.second-section{
+    background-color: #F0F4F3;
+    display: grid;
+    grid-template-rows: 33.3% 33.3% 33.3%;
+    height: 61.25rem;
+}
+
+.second-section h1{
+    margin-top: 0;
+    margin-bottom: 0.625rem;
+}
+
+.third-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F0F4F3;
+    margin: 2% 15% 1% 15%;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.fourth-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F0F4F3;
+    margin: 1% 15% 1% 15%;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.fifth-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F0F4F3;
+    margin: 1% 15% 2% 15%;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.second-section img{
+    margin: 3% 5% 3% 3%;
+}
+
+.left-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 15% 5% 5%;
+}
+
+.right-paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5% 5% 5% 10%;
+}
+
+/*Estilos de la tercera seccion de la pagina web (scroll bar)*/
+.third-section{
+    background-color: #E6EAF0;
+}
+
+h3{
+    margin: 0;
+    padding: 3.125rem 0 1.5625rem 0;
+    text-align: center;
+}
+
+.scroll-bar{
+    display: grid;
+    grid-template-columns: 28% 28% 28% 28% 28%;
+    margin: 0 8% 0 8%;
+    overflow-x: scroll;
+}
+
+.scroll-bar div{
+    margin: 16% 2% 8% 2%;
+    background-color: #FFF;
+    padding: 9% 5% 5% 5%;
+    border-radius: 1.5625rem 0 1.5625rem 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+
+.scroll-bar h4{
+    text-align: center;
+}
+
+.scroll-bar img{
+    width: 5rem;
+    position: absolute;
+    top: -18%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/*Estilos de la tarjeta flotante*/
+.membership-title{
+    margin: 0 0 1.5625rem 0;
+    text-align: center;
+}
+
+.membership-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ECEFF2;
+    margin: 3% 30%;
+    padding: 2% 5% 2% 5%;
+    position: relative;
+    bottom: -5.3125rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*Estilos del pie de pagina de la web*/
+footer p{
+    margin: 0;
+}
+
+footer{
+    background-color: #181F32;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 35% 25% 25% 15%;
+    padding: 13.75rem 4.375rem 5.625rem 4.375rem;
+}
+
+.footer-message{
+    display: flex;
+}
+
+.footer-message h1{
+    color: #ECEFF2;
+    margin-left: 0.9375rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container p{
+    color: #C0BCB9;
+    margin-left: 0.9375rem;
+}
+
+.container ul{
+    padding: 0;
+}
+
+.container li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.message{
+    width: 2.1875rem;
+}
+
+.footer-img{
+    width: 1.25rem;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: end;
+}
+
+.footer-icons img{
+    width: 2.0625rem;
+    margin-right: 0.625rem;
+}
+
+.footer-second-div{
+    margin-left: 3.75rem;
+}
+
+.footer-third-div{
+    margin-left: 3.75rem;
+}
+
+.footer-first-div{
+    position: relative;
+}
+
+.footer-message{
+    position: absolute;
+    top: -3.75rem;
+}
+
+/*Media queries*/
+@media only screen and (max-width: 1240px) and (min-width: 1080px){
+    .scroll-bar div{
+        margin: 25% 2% 8% 2%;
+    }
+
+    .first-section{
+        height: 40.625rem;
+    }
+}
+
+@media only screen and (max-width: 1079px) and (min-width: 990px){
+    .scroll-bar div{
+        margin: 25% 2% 8% 2%;
+    }
+
+    .first-section{
+        height: 40.625rem;
+    }
+
+    .second-section img{
+        width: 12.5rem;
+        margin: 3% 3% 3% 3%;
+    }
+    
+    .left-paragraph{
+        margin: 5% 5% 5% 5%;
+    }
+    
+    .right-paragraph{
+        margin: 5% 5% 5% 5%;
+    }
+
+    .second-div{
+        padding-left: 5.625rem; 
+    }
+}
+
+@media only screen and (max-width: 989px) and (min-width: 615px){
+    .scroll-bar{
+        grid-template-columns: 35% 35% 35% 35% 35%;
+    }
+
+    .scroll-bar div{
+        margin: 20% 2% 8% 2%;
+    }
+
+    .scroll-bar img{
+        width: 3.75rem;
+        top: -10%;
+    }
+
+    .first-section{
+        height: 34.375rem;
+    }
+
+    .second-section img{
+        width: 8.125rem;
+        margin: 3% 3% 3% 3%;
+    }
+    
+    .left-paragraph{
+        margin: 5% 5% 5% 5%;
+    }
+    
+    .right-paragraph{
+        margin: 5% 5% 5% 5%;
+    }
+
+    .first-div{
+        padding-left: 3.75rem;
+    }
+
+    .second-div{
+        padding-left: 3.125rem; 
+        padding-right: 3.75rem;
+    }
+
+    .third-div{
+        margin: 4% 15% 2% 15%;
+    }
+    
+    .fourth-div{
+        margin: 2% 15% 2% 15%;
+    }
+    
+    .fifth-div{
+        margin: 2% 15% 4% 15%;
+    }
+
+    .container{
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 55% 45%;
+        padding: 13.75rem 4.375rem 5.625rem 4.375rem;
+    }
+
+    .footer-third-div{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-column-end: 3;
+        margin-top: 0;
+    }
+
+    .footer-icons{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-column-end: 3;
+        justify-content: start;
+        margin-top: 1.25rem;
+    }
+
+    .logo{
+        width: 3.125rem;
+    }
+
+    .nav-item{
+        margin-right: 0;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    button{
+        padding: 0.625rem 1.25rem;
+        width: 11.25rem;
+    }
+
+    .membership-div{
+        bottom: -78px;
+        padding: 5% 5% 5% 5%;
+    }
+}
+
+@media only screen and (max-width: 614px) and (min-width: 425px){
+    .scroll-bar{
+        grid-template-columns: 53% 53% 53% 53% 53%;
+    }
+
+    .scroll-bar div{
+        margin: 20% 2% 8% 2%;
+    }
+
+    .scroll-bar img{
+        width: 3.75rem;
+        top: -10%;
+    }
+
+    .first-section{
+        height: 34.375rem;
+        padding-bottom: 3.125rem;
+    }
+
+    .second-section{
+        height: 81.25rem;
+    }
+
+    .second-section img{
+        width: 8.75rem;
+        margin: 3% 3% 3% 3%;
+    }
+    
+    .left-paragraph{
+        margin: 5% 5% 0 5%;
+    }
+    
+    .right-paragraph{
+        margin: 5% 5% 5% 5%;
+    }
+
+    .first-div{
+        padding-left: 1.875rem; 
+        padding-right: 1.875rem;
+    }
+
+    .second-div{
+        padding-left: 3.125rem; 
+        padding-right: 3.125rem;
+    }
+
+    .third-div{
+        margin: 4% 15% 2% 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fourth-div{
+        margin: 2% 15% 2% 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fifth-div{
+        margin: 2% 15% 4% 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        grid-template-columns: none;
+        grid-template-rows: 40% 26.5% 23.5% 10%;
+        padding: 13.75rem 4.375rem 5.625rem 4.375rem;
+    }
+
+    .footer-second-div{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .footer-second-div p{
+        margin-left: 0;
+    }
+    
+    .footer-third-div{
+        margin-left: 0;
+    }
+
+    .footer-third-div p{
+        margin-left: 0;
+    }
+
+    .footer-third-div ul{
+        margin-top: 0;
+    }
+
+    .footer-icons{
+        justify-content: start;
+        margin-top: 1.25rem;
+    }
+
+    .logo{
+        width: 2.8125rem;
+    }
+
+    header h1{
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .nav-item{
+        margin-right: 0;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    button{
+        padding: 0.625rem 1.25rem;
+        width: 11.25rem;
+    }
+
+    .first-section{
+        grid-template-columns: 100%;
+    }
+
+    .membership-div{
+        margin: 3% 8%;
+        padding: 5% 5% 5% 5%;
+        bottom: -65px;
+    }
+}
+
+@media only screen and (max-width: 424px){
+    .scroll-bar{
+        grid-template-columns: 75% 75% 75% 75% 75%;
+    }
+
+    .scroll-bar div{
+        margin: 20% 2% 8% 2%;
+    }
+
+    .scroll-bar img{
+        width: 3.75rem;
+        top: -10%;
+    }
+
+    .first-section{
+        height: 34.375rem;
+        padding-bottom: 3.125rem;
+    }
+
+    .second-section{
+        height: 81.25rem;
+    }
+
+    .second-section img{
+        width: 8.75rem;
+        margin: 3% 3% 3% 3%;
+    }
+    
+    .left-paragraph{
+        margin: 5% 5% 0 5%;
+    }
+    
+    .right-paragraph{
+        margin: 5% 5% 5% 5%;
+    }
+
+    .first-div{
+        padding-left: 1.875rem; 
+        padding-right: 1.875rem;
+    }
+
+    .second-div{
+        padding-left: 3.125rem; 
+        padding-right: 3.125rem;
+    }
+
+    .third-div{
+        margin: 4% 15% 2% 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fourth-div{
+        margin: 2% 15% 2% 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fifth-div{
+        margin: 2% 15% 4% 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container{
+        grid-template-columns: none;
+        grid-template-rows: 41.5% 24% 24% 10.5%;
+        padding: 13.75rem 4.375rem 5.625rem 4.375rem;
+    }
+
+    .footer-second-div{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .footer-second-div p{
+        margin-left: 0;
+    }
+    
+    .footer-third-div{
+        margin-left: 0;
+    }
+
+    .footer-third-div p{
+        margin-left: 0;
+    }
+
+    .footer-third-div ul{
+        margin-top: 0;
+    }
+
+    .footer-icons{
+        justify-content: start;
+        margin-top: 1.25rem;
+    }
+
+    .logo{
+        width: 2.8125rem;
+    }
+
+    header h1{
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    }
+
+    .nav-item{
+        margin-right: 0;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    button{
+        padding: 0.625rem 1.25rem;
+        width: 11.25rem;
+    }
+
+    .first-section{
+        grid-template-columns: 100%;
+    }
+
+    .membership-div{
+        margin: 3% 8%;
+        padding: 5% 5% 5% 5%;
+        bottom: -65px;
+    }
+
+    .footer-message h1{
+        font-size: 19.5px;
+    }
+}
